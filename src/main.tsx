@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Landing from './pages/Landing';
+import OrphanagesMap from './pages/OrphanagesMap';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/app",
+    element: <OrphanagesMap />
   },
   {
     path: "/orphanages/create",
